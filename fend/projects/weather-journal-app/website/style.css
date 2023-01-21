@@ -4,21 +4,19 @@ body{
 }
 
 #app{
-    display: grid;
-    grid-auto-rows: minmax(150px, auto);
+    display: block;
+    /* grid-auto-rows: minmax(10px, auto); */
     /* grid-template-columns:  */
-    height:100vh;
+    height: 100%;
     background: #f23557;
     color: #f0d43a;
     justify-content: center;
-    grid-gap: 1em;
     font-size: 20px;
     font-family: 'Oswald', sans-serif;
 }
 
 .holder{
-
-}
+    margin-top: 20px}
 
 .entry{
     background: rgba(59, 74, 107, .4);
